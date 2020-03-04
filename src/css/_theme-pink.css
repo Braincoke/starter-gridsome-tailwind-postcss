@@ -1,0 +1,13 @@
+:root {
+    --mainColor: red;
+  }
+  
+button {
+  & a {
+      color: var(--mainColor)
+  }
+
+  @nest &.custom {
+      background-color: pink
+  }
+}
