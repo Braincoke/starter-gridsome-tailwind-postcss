@@ -1,6 +1,4 @@
 @tailwind base;
 @tailwind components;
-
 @import "./theme-pink.css";
-
 @tailwind utilities;

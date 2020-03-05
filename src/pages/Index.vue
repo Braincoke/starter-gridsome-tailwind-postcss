@@ -12,6 +12,18 @@
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
     </p>
     <button class="custom font-bold py-2 px-4 rounded"><a>Button</a></button>
+
+    <pre>
+      <code>
+        if (x==1) {
+          print("Hello")
+        }
+      </code>
+    </pre>
+
+    <p class="subtitle">
+      This gray text is semibold and uppercase
+    </p>
   </Layout>
 </template>
 

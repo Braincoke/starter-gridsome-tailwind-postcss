@@ -11,3 +11,15 @@ button {
     background-color: pink;
   }
 }
+
+pre {
+  @apply bg-pink-900 rounded-t;
+
+  & code {
+    @apply text-gray-300;
+  }
+}
+
+.subtitle {
+  @apply text-gray-600 font-semibold uppercase bg-pink-200 rounded-b;
+}
